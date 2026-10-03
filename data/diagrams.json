@@ -1,16 +1,16 @@
 [
   {
-    "id": "dol",
-    "title": "Macerator DOL starter - MCC bucket",
-    "type": "Electrical schematic",
-    "rev": "Rev C",
-    "file": "assets/diagrams/starter-dol.svg"
+    "id": "pump-station-pid.svg",
+    "title": "Pump Station Pid",
+    "type": "Schematic",
+    "rev": "",
+    "file": "assets/diagrams/pump-station-pid.svg"
   },
   {
-    "id": "pid",
-    "title": "Pump station P&ID - wet well PS-04",
-    "type": "P&ID",
-    "rev": "Rev B",
-    "file": "assets/diagrams/pump-station-pid.svg"
+    "id": "starter-dol.svg",
+    "title": "Starter Dol",
+    "type": "Schematic",
+    "rev": "",
+    "file": "assets/diagrams/starter-dol.svg"
   }
 ]

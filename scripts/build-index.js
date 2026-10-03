@@ -1,0 +1,10 @@
+const fs = require('fs');
+const dir = 'assets/diagrams', ok = /\.(svg|png|jpe?g|webp|pdf)$/i;
+const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => ok.test(f)).sort() : [];
+const human = f => f.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+const type = f => /\.pdf$/i.test(f) ? 'PDF drawing' : /\.svg$/i.test(f) ? 'Schematic' : 'Image';
+fs.mkdirSync('data', { recursive: true });
+fs.writeFileSync('data/diagrams.json', JSON.stringify(files.map(f => ({ id: f, title: human(f), type: type(f), rev: '', file: dir + '/' + f })), null, 2));
+const version = (process.env.GITHUB_SHA || String(Date.now())).slice(0, 10);
+fs.writeFileSync('data/manifest.json', JSON.stringify({ version, files: files.map(f => dir + '/' + f) }));
+console.log('Indexed ' + files.length + ' drawings, version ' + version);

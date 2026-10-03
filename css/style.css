@@ -34,3 +34,12 @@ nav{display:flex;background:var(--card);border-top:2px solid var(--pri);padding-
 nav button{flex:1;border:0;border-radius:0;background:transparent;color:var(--ink)}
 nav button.on{background:var(--pri);color:#fff}
 button:focus-visible,input:focus-visible{outline:3px solid var(--sig);outline-offset:2px}
+
+.add{display:block;margin:12px 0;padding:14px;border:2px dashed var(--pri);border-radius:6px;text-align:center;color:var(--pri);font-weight:600}
+.row{display:flex;gap:8px}.row button:first-child{flex:1}
+.list .row .del{width:auto;background:#fff;color:var(--bad);border:1px solid var(--bad)}
+.log-form{display:grid;gap:8px}
+.log-form input,.log-form textarea{padding:10px 12px;border:1px solid var(--line);border-radius:6px;font:inherit;min-height:44px}
+.log-form textarea{min-height:96px}
+.muted{color:#4a6670;font-size:.9rem}
+.logit{margin-top:8px;min-height:36px;background:#fff;color:var(--pri)}
