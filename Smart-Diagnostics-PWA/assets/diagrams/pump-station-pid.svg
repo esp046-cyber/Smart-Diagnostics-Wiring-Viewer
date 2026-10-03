@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="monospace" font-size="14">
+<rect width="800" height="460" fill="#fff"/><g stroke="#10242B" stroke-width="2" fill="none">
+<text x="20" y="30" fill="#10242B" stroke="none" font-size="18">P&amp;ID - PUMP STATION PS-04 (placeholder)</text>
+<path d="M60 200V400H220V200"/><text x="100" y="380" stroke="none" fill="#10242B">WET WELL</text>
+<path d="M60 300H220" stroke-dasharray="6 4" stroke="#0F4C5C"/>
+<rect x="110" y="120" width="26" height="60"/><text x="90" y="112" stroke="none" fill="#10242B">LIT-101</text>
+<path d="M190 350H300"/><circle cx="330" cy="350" r="30"/><text x="312" y="355" stroke="none" fill="#10242B">P-1</text>
+<path d="M330 320V200H420"/><path d="M420 185V215L450 200Z"/><text x="408" y="175" stroke="none" fill="#10242B">NRV-1</text>
+<path d="M450 200H520"/><path d="M520 185V215L550 200L520 185M550 185V215L520 200" /><text x="508" y="175" stroke="none" fill="#10242B">XV-1</text>
+<path d="M550 200H620"/><circle cx="620" cy="200" r="18"/><text x="602" y="165" stroke="none" fill="#10242B">FIT-201</text>
+<path d="M638 200H760"/><text x="680" y="190" stroke="none" fill="#10242B">TO RISING MAIN</text>
+<path d="M590 200V140"/><rect x="570" y="100" width="40" height="40" rx="18"/><text x="560" y="92" stroke="none" fill="#10242B">AV-1</text>
+<path d="M370 200V150"/><circle cx="370" cy="130" r="18"/><text x="345" y="100" stroke="none" fill="#10242B">PIT-202</text>
+</g></svg>

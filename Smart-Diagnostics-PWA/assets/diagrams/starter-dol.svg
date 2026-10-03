@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" font-family="monospace" font-size="14">
+<rect width="800" height="560" fill="#fff"/><g stroke="#10242B" stroke-width="2" fill="none">
+<text x="20" y="30" fill="#10242B" stroke="none" font-size="18">DOL STARTER - MACERATOR M1 (placeholder)</text>
+<path d="M120 60V120M260 60V120M400 60V120"/>
+<text x="110" y="52" stroke="none" fill="#10242B">L1</text><text x="250" y="52" stroke="none" fill="#10242B">L2</text><text x="390" y="52" stroke="none" fill="#10242B">L3</text>
+<rect x="90" y="120" width="340" height="50"/><text x="200" y="150" stroke="none" fill="#10242B">Q1 MCCB 16A</text>
+<path d="M120 170V230M260 170V230M400 170V230"/>
+<rect x="90" y="230" width="340" height="50"/><text x="200" y="260" stroke="none" fill="#10242B">K1 CONTACTOR</text>
+<path d="M120 280V340M260 280V340M400 280V340"/>
+<rect x="90" y="340" width="340" height="50"/><text x="200" y="370" stroke="none" fill="#10242B">F2 OVERLOAD</text>
+<path d="M120 390V440M260 390V440M400 390V440"/>
+<circle cx="260" cy="480" r="38"/><text x="244" y="486" stroke="none" fill="#10242B">M1 3~</text>
+<path d="M520 60V500M700 60V500" stroke="#0F4C5C"/>
+<text x="500" y="52" stroke="none" fill="#0F4C5C">24VDC</text><text x="690" y="52" stroke="none" fill="#0F4C5C">0V</text>
+<path d="M520 120H560M600 120H640" stroke="#0F4C5C"/><text x="545" y="108" stroke="none" fill="#0F4C5C">S0 STOP</text>
+<path d="M520 220H560M600 220H640" stroke="#0F4C5C"/><text x="545" y="208" stroke="none" fill="#0F4C5C">S1 START</text>
+<path d="M520 320H560M600 320H640" stroke="#0F4C5C"/><text x="540" y="308" stroke="none" fill="#0F4C5C">F2 95-96</text>
+<rect x="640" y="400" width="60" height="40" stroke="#0F4C5C"/><text x="650" y="425" stroke="none" fill="#0F4C5C">K1 A1</text>
+</g></svg>

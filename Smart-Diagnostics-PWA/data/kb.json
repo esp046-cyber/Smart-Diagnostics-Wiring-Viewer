@@ -1,0 +1,139 @@
+[
+  {
+    "id": "mac-torque",
+    "title": "Macerator high torque alarm",
+    "keywords": [
+      "macerator",
+      "torque",
+      "jam",
+      "overload",
+      "grinder",
+      "rag"
+    ],
+    "causes": [
+      "Rag or debris jam on cutter stack",
+      "Worn cutters or loose cutter bolts",
+      "Phase imbalance or low supply voltage",
+      "Bearing or seal failure"
+    ],
+    "steps": [
+      "Isolate and lock out at the MCC; confirm zero energy.",
+      "Rotate the shaft by hand and check for binding.",
+      "Pull the unit and clear the cutter stack; inspect cutter wear.",
+      "Megger motor windings (should be above 1 MOhm) and check the three phase currents at the overload relay.",
+      "Restart and compare running current to nameplate FLA."
+    ],
+    "calibration": "Torque/overload trip: set the relay to 105-110% FLA, class 10. Verify the PLC torque alarm threshold against the nameplate."
+  },
+  {
+    "id": "air-valve",
+    "title": "Air valve not seating / pressure surge",
+    "keywords": [
+      "air valve",
+      "pressure",
+      "surge",
+      "water hammer",
+      "leak",
+      "seating",
+      "vent"
+    ],
+    "causes": [
+      "Debris on the float or seat",
+      "Damaged seal or float",
+      "Isolation valve left closed",
+      "Surge from fast pump stop"
+    ],
+    "steps": [
+      "Confirm the isolation valve is open.",
+      "Depressurise the line, open the valve and clean the seat and float.",
+      "Replace the seal if scored or hardened.",
+      "Check the pump stop ramp time in the VSD or soft starter."
+    ],
+    "calibration": "Check set pressure on the pressure transmitter against a calibrated gauge at 0, 50 and 100% span."
+  },
+  {
+    "id": "hyd-slow",
+    "title": "Hydraulic actuator slow or drifting",
+    "keywords": [
+      "hydraulic",
+      "actuator",
+      "slow",
+      "drift",
+      "cylinder",
+      "oil",
+      "hpu"
+    ],
+    "causes": [
+      "Low reservoir level or aerated oil",
+      "Clogged return filter",
+      "Worn pump or internal cylinder leakage",
+      "Relief valve set too low"
+    ],
+    "steps": [
+      "Check reservoir level and oil condition.",
+      "Check filter differential indicator and replace if tripped.",
+      "Hold the actuator at mid-stroke; drift indicates internal leakage.",
+      "Measure system pressure against the setpoint at the test point."
+    ],
+    "calibration": "Re-set the relief valve with a calibrated gauge; record the pressure and stroke time in the log."
+  },
+  {
+    "id": "level-drift",
+    "title": "Level or flow instrument reading drifts",
+    "keywords": [
+      "level",
+      "flow",
+      "transmitter",
+      "ultrasonic",
+      "radar",
+      "flowmeter",
+      "drift",
+      "instrument",
+      "4-20",
+      "fit",
+      "lit"
+    ],
+    "causes": [
+      "Fouled sensor face or foam",
+      "Wrong empty/span configuration",
+      "Loop wiring fault or high loop resistance",
+      "Flowmeter with partial pipe or air entrainment"
+    ],
+    "steps": [
+      "Clean the sensor; check for foam or condensation.",
+      "Measure loop current at the terminal (4 mA = empty, 20 mA = full).",
+      "Compare the reading with a dip or tape measurement.",
+      "For flow, confirm the pipe is full and the earthing rings are intact."
+    ],
+    "calibration": "Re-set empty and span distances; simulate 4/12/20 mA at the PLC input to confirm scaling."
+  },
+  {
+    "id": "solar-rtu",
+    "title": "Solar RTU offline / low battery",
+    "keywords": [
+      "solar",
+      "battery",
+      "rtu",
+      "telemetry",
+      "offline",
+      "comms",
+      "geoscada",
+      "charge",
+      "panel",
+      "voltage"
+    ],
+    "causes": [
+      "Dirty or shaded panel",
+      "Charge controller fault or loose terminal",
+      "Aged battery",
+      "Modem or antenna fault"
+    ],
+    "steps": [
+      "Measure panel open-circuit voltage and charge current.",
+      "Check battery rest voltage (12.6 V for a healthy 12 V battery).",
+      "Tighten fuse and terminal connections.",
+      "Check modem signal and RTU link status in GeoSCADA."
+    ],
+    "calibration": "Verify the controller low-voltage disconnect and float settings against the battery datasheet."
+  }
+]

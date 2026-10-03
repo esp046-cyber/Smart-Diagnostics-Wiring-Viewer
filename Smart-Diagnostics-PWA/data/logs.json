@@ -1,0 +1,38 @@
+[
+  {
+    "kb": "mac-torque",
+    "date": "2025-11-14",
+    "site": "PS-04 Al Quoz",
+    "note": "Rags jammed cutter; cleared. Running amps back to 11.2 A."
+  },
+  {
+    "kb": "mac-torque",
+    "date": "2026-02-03",
+    "site": "PS-11 Jebel Ali",
+    "note": "Cutters replaced; overload relay reset to 106% FLA."
+  },
+  {
+    "kb": "air-valve",
+    "date": "2026-01-22",
+    "site": "RM-02 Rising Main",
+    "note": "Debris on seat; cleaned and re-seated. Soft-stop ramp extended to 8 s."
+  },
+  {
+    "kb": "hyd-slow",
+    "date": "2025-12-09",
+    "site": "WTP-01 Gate G3",
+    "note": "Return filter blocked; replaced. Stroke time 41 s down to 28 s."
+  },
+  {
+    "kb": "level-drift",
+    "date": "2026-03-18",
+    "site": "PS-07 Wet well",
+    "note": "Ultrasonic fouled by grease; cleaned and span re-set."
+  },
+  {
+    "kb": "solar-rtu",
+    "date": "2026-04-27",
+    "site": "RTU-15 Remote",
+    "note": "Battery rest voltage 11.4 V; replaced. Panel cleaned."
+  }
+]
